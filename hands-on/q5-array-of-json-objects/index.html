@@ -8,10 +8,42 @@
   </head>
   <body>
     <button id="load-users-btn">Load Users</button>
+    <div id="all-users">
+      <ul>
 
-    <div id="all-users"></div>
+      </ul>
+    </div>
+
+    <input type="text" id="user-id">
+    <button id="search-user-btn">Search User by ID</button>
+    <div id="searched-user">
+
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- PAUL'S SOLUTION
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="load-users-btn">Load Users</button>
+
+    <input type="text" placeholder="Enter the name to search for" id="search"/>
+    <button id="btnFind">Find</button>
+
+    <ul id="all-users"></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html> -->
+
